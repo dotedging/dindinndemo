@@ -1,0 +1,120 @@
+.register {
+  .content_area {
+    padding: 15px;
+    background-color: whitesmoke;
+    .page_title {
+      color: black;
+      font-size: 20px;
+      font-size: normal;
+      font-weight: 600;
+      padding: 10px 15px;
+    }
+    .page_description {
+      color: black;
+      font-size: 13px;
+      font-size: normal;
+      font-weight: 600;
+      padding: 10px 15px;
+    }
+    .form_group {
+      .intl-tel-input {
+        width: 100%;
+
+        .flag-container {
+          margin: 10px 0;
+          .selected-flag {
+            border-right: 1px solid lightgray;
+            width: 80px;
+            padding: 0 10px;
+            background: none;
+            .iti-flag {
+              margin-top: 8px;
+            }
+            .selected-dial-code {
+              padding-left: 5px;
+              font-size: 20px;
+              font-weight: 700;
+              color: black;
+            }
+          }
+        }
+
+        .country-list {
+          position: absolute;
+          z-index: 2;
+          list-style: none;
+          text-align: left;
+          padding: 0;
+          background-color: white;
+          white-space: unset;
+          max-height: 200px;
+          overflow-y: scroll;
+          border-radius: 12px;
+          border: none;
+          margin-top: 20px;
+        }
+        .form-control {
+          box-shadow: 0px 3px 6px 0px lightgrey;
+          border-radius: 10px;
+          height: 50px;
+          border: none;
+          color: black;
+          font-weight: 700;
+          font-size: 20px;
+          padding-left: 130px !important;
+          .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-2 input,
+          .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-2
+            input[type="text"],
+          .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-2
+            input[type="tel"] {
+            padding-left: 130px !important;
+          }
+        }
+      }
+      .otp_content {
+        input {
+          width: 29px !important;
+          text-align: center;
+          height: 35px;
+          border-radius: 5px;
+          margin: 10px;
+          border: none;
+          box-shadow: 0px 3px 6px 0px grey;
+          @media (min-width: 320px) and (max-width: 575px) {
+            margin: 5px;
+          }
+          &:focus{
+            outline: none;
+            border: none;
+          }
+        }
+      }
+      .otp_content:first-child {
+        margin-left: 20px;
+        @media (min-width: 320px) and (max-width: 575px) {
+          margin-left: 10px;
+        }
+      }
+    }
+    .submit_area {
+      margin-top: 50px;
+      .submit_btn {
+        height: 50px;
+        width: 100%;
+        background: yellow;
+        color: black;
+        border-radius: 25px;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .back_text {
+        color: black;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+  }
+}
